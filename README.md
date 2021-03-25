@@ -5,3 +5,7 @@ This endpoint is solely responsible for sending emails with Postmark through a s
 
 for more detail
 https://postmarkapp.com/developer
+
+    Don't forget add Newtonsoft.Json nuget to ur library
+
+PM > Install-Package Newtonsoft.Json
