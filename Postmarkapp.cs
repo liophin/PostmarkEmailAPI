@@ -49,6 +49,7 @@ public class PostmarkBody
     public string HtmlBody { get; set; }
     public string TextBody { get; set; }
 }
+//------------------------------------------- for email sending data
 
 public class PostmarkResponse
 {
@@ -58,3 +59,4 @@ public class PostmarkResponse
     public int ErrorCode { get; set; }
     public string Message { get; set; }
 }
+//------------------------------------------- for result message
